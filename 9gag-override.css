@@ -1,0 +1,40 @@
+body {
+  background-color: #000 !important;
+}
+section#list-view-2 h2 a {
+  color: #FFF !important;
+}
+header#top-nav {
+  box-shadow: 0 1px 0 rgba(255,255,255,.2) !important;
+}
+section.block-feature-cover .info-container a {
+  color: #FFF !important;
+}
+
+.post-afterbar-a.in-post-top {
+  background-color: #000 !important;
+}
+.horizontal-vote a.up span {
+  background-color: #000 !important;
+}
+.CS3 {
+  background-color: #000 !important;
+}
+.CS3 .tab-bar ul.tab li.active a {
+  color: #FFF !important;
+}
+section#individual-post header h2 {
+  color: #FFF !important;
+}
+.CS3 .tab-bar h3 {
+  color: #FFF !important;
+}
+.CS3 .comment-entry .payload .username {
+  color: #FFF !important;
+}
+.CS3 .comment-entry .payload .content {
+  color: #FFF !important;
+}
+h2.sidebar-title {
+  color: #FFF !important;
+}
