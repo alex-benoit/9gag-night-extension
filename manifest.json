@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "9gag Night Mode",
   "version": "1.0",
-  "description": "Added a night mode to 9gag desktop",
+  "description": "Night mode for the 9gag website!",
 
   "content_scripts": [{
     "css": ["9gag-override.css"],
