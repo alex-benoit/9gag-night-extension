@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "9gag Night Mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Night mode for the 9gag website!",
-
+  "icons": { "128": "9gagext.png" },
   "content_scripts": [{
     "css": ["9gag-override.css"],
     "matches": ["http://9gag.com/*"]
