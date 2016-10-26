@@ -38,3 +38,9 @@ section#individual-post header h2 {
 h2.sidebar-title {
   color: #FFF !important;
 }
+.activity-text {
+  color: #FFF !important;
+}
+.activity-text a {
+  color: #FFF !important;
+}
