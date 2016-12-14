@@ -1,46 +1,168 @@
+/* === BODY ===  */
 body {
-  background-color: #000 !important;
-}
-section#list-view-2 h2 a {
-  color: #FFF !important;
-}
-header#top-nav {
-  box-shadow: 0 1px 0 rgba(255,255,255,.2) !important;
-}
-section.block-feature-cover .info-container a {
-  color: #FFF !important;
+  background-color: #151515 !important;
 }
 
+
+/* === NAVBAR === */
+header#top-nav {
+  background-color: #222222 !important;
+  /*box-shadow: 0 1px 0 rgba(255,255,255,.2) !important;*/
+}
+/* New section boxes */
+.nav-menu a.new:after{
+  background-color: #333333 !important;
+}
+/* Upload Button */
+.btn-primary {
+  background-color: transparent !important;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  color: #999 !important;
+}
+.btn-primary:hover {
+  border-color: #999 !important;
+}
+
+
+/* === 9GAG POSTS === */
+/* Post Title*/
+section#list-view-2 h2 a {
+  color: #D0D0D0 !important;
+}
+/* Border */
+section#list-view-2 article {
+  border-color: rgba(170, 170, 170, 0.3) !important;
+}
+
+/* === RIGHT SIDE BAR === */
+/* Sidebar Titles */
+h2.sidebar-title {
+  color: #D0D0D0 !important;
+}
+/* Right Nav Links */
+section.block-feature-cover .info-container a {
+  color: #D0D0D0 !important;
+}
+
+
+/* === 9GAG POST SHOW === */
+/* Title */
+section#individual-post header h2 {
+  color: #D0D0D0 !important;
+}
+
+/* Top Bar */
 .post-afterbar-a.in-post-top {
-  background-color: #000 !important;
+  background-color: #151515 !important;
 }
 .horizontal-vote a.up span {
-  background-color: #000 !important;
+  background-color: #151515 !important;
 }
+.post-afterbar-a .others a.more {
+  background-color: transparent !important;
+}
+
+/* Comment Section */
 .CS3 {
-  background-color: #000 !important;
+  background-color: transparent !important;
 }
 .CS3 .tab-bar ul.tab li.active a {
-  color: #FFF !important;
-}
-section#individual-post header h2 {
-  color: #FFF !important;
+  color: #D0D0D0 !important;
 }
 .CS3 .tab-bar h3 {
-  color: #FFF !important;
+  color: #D0D0D0 !important;
 }
 .CS3 .comment-entry .payload .username {
-  color: #FFF !important;
+  color: #D0D0D0 !important;
 }
 .CS3 .comment-entry .payload .content {
-  color: #FFF !important;
+  color: #D0D0D0 !important;
 }
-h2.sidebar-title {
-  color: #FFF !important;
-}
+
+/* ? */
 .activity-text {
-  color: #FFF !important;
+  color: #D0D0D0 !important;
 }
 .activity-text a {
-  color: #FFF !important;
+  color: #D0D0D0 !important;
+}
+
+
+/* === SOCIAL BUTTONS === */
+/* 9gag Post Share */
+.post-afterbar-a .btn-share {
+  box-sizing: border-box;
+  border: 1px solid #DDD;
+  color: #999 !important;
+  border-radius: 3px;
+  height: 34px;
+  display: block;
+  background-color: transparent !important;
+}
+.post-afterbar-a .btn-share:hover {
+  border-color: #999;
+}
+
+/* Instagram bottom side bar */
+section.block-social-love .social-love a.instagram-follow {
+  background-color: #D0D0D0 !important;
+}
+
+
+/* === FOOTER === */
+.footer {
+  background-color: transparent !important;
+}
+
+
+/* === BACK TO TOP ARROW === */
+a.back-to-top {
+  background-color: #CCC !important;
+}
+
+
+/* === PROFILE PAGE ===  */
+section.profile-header .profile.no-banner .info {
+  background-color: #333 !important;
+}
+.section-nav {
+  background-color: #444 !important;
+}
+.section-nav a {
+  color: #D0D0D0 !important;
+
+}
+section.section-header {
+  background-color: #444 !important;
+}
+section.section-header h2 {
+  color: #D0D0D0 !important;;
+}
+
+
+/* === SEARCH PAGE === */
+form#listview-search input#search-hero {
+  color: #D0D0D0 !important;
+}
+.overview-list .info h3 {
+  color: #D0D0D0 !important;
+}
+.overview-list .info h3:hover {
+  color: #0099FF !important;
+}
+.section-header {
+  color: #D0D0D0 !important;
+}
+
+
+/* === 9GAG TV === */
+.post-list-t1 .meta p {
+  color: #D0D0D0 !important;
+}
+.post-list-t1.horizontal .title h4 {
+  color: #D0D0D0 !important;
+}
+.post-list-t1.horizontal .title h4:hover {
+  color: #0099FF !important;
 }
