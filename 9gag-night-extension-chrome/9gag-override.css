@@ -2,6 +2,9 @@
 body {
   background-color: #151515 !important;
 }
+textarea {
+  background-color: #EAEAEA;
+}
 
 
 /* === NAVBAR === */
@@ -79,6 +82,9 @@ section#individual-post header h2 {
 .CS3 .comment-entry .payload .content {
   color: #D0D0D0 !important;
 }
+.CS3 .comment-section-title {
+  color: #D0D0D0 !important;
+}
 
 /* ? */
 .activity-text {
@@ -137,9 +143,22 @@ section.section-header {
   background-color: #444 !important;
 }
 section.section-header h2 {
-  color: #D0D0D0 !important;;
+  color: #D0D0D0 !important;
 }
 
+
+/* === NOTIFICATIONS PAGE === */
+section.notification-detail .section-title {
+  color: white !important;
+}
+
+section.notification-detail .notification-text-list {
+  color: #D0D0D0 !important;
+}
+
+section.notification-detail .notification-text-list a {
+  color: #D0D0D0 !important;
+}
 
 /* === SEARCH PAGE === */
 form#listview-search input#search-hero {
