@@ -1,6 +1,10 @@
 /* === BODY ===  */
 body {
   background-color: #151515 !important;
+  color: #D0D0D0;
+}
+body a:hover {
+  color: white;
 }
 textarea {
   background-color: #EAEAEA;
@@ -33,6 +37,9 @@ header#top-nav {
 section#list-view-2 h2 a {
   color: #D0D0D0 !important;
 }
+section#list-view-2 h2 a:hover {
+  color: white !important;
+}
 /* Border */
 section#list-view-2 article {
   border-color: rgba(170, 170, 170, 0.3) !important;
@@ -40,8 +47,11 @@ section#list-view-2 article {
 
 /* === RIGHT SIDE BAR === */
 /* Sidebar Titles */
-h2.sidebar-title {
+#sidebar-content .badge-featured-item h3 {
   color: #D0D0D0 !important;
+}
+#sidebar-content .badge-featured-item:hover h3 {
+  color: white !important;
 }
 /* Right Nav Links */
 section.block-feature-cover .info-container a {
@@ -72,6 +82,9 @@ section#individual-post header h2 {
 }
 .CS3 .tab-bar ul.tab li.active a {
   color: #D0D0D0 !important;
+}
+.CS3 .tab-bar ul.tab li a:hover {
+  color: white !important;
 }
 .CS3 .tab-bar h3 {
   color: #D0D0D0 !important;
@@ -171,6 +184,12 @@ form#listview-search input#search-hero {
   color: #0099FF !important;
 }
 .section-header {
+  color: #D0D0D0 !important;
+}
+
+
+/* === SETTINGS PAGE === */
+#settings {
   color: #D0D0D0 !important;
 }
 
