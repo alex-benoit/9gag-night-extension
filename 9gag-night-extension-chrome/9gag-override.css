@@ -34,10 +34,10 @@ header#top-nav {
 
 /* === 9GAG POSTS === */
 /* Post Title*/
-section#list-view-2 h2 a {
+.badge-item-title {
   color: #D0D0D0 !important;
 }
-section#list-view-2 h2 a:hover {
+.badge-item-title:hover {
   color: white !important;
 }
 /* Border */
