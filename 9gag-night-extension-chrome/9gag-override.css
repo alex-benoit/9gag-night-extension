@@ -45,6 +45,16 @@ section#list-view-2 article {
   border-color: rgba(170, 170, 170, 0.3) !important;
 }
 
+
+/* === INDEX TOP CIRCLES === */
+.featured-tag a {
+  background-color: #333 !important;
+}
+.featured-tag a:hover {
+  background-color: #000 !important;
+}
+
+
 /* === RIGHT SIDE BAR === */
 /* Sidebar Titles */
 #sidebar-content .badge-featured-item h3 {
@@ -56,6 +66,22 @@ section#list-view-2 article {
 /* Right Nav Links */
 section.block-feature-cover .info-container a {
   color: #D0D0D0 !important;
+}
+
+
+/* === LEFT SIDE BAR ===*/
+.section-sidebar {
+  background-color: #151515 !important;
+  border-right: 1px solid #333 !important;
+}
+.section-sidebar section {
+  border-bottom: 1px solid #333 !important;
+}
+.section-sidebar section .nav a {
+  color: #D0D0D0 !important
+}
+.section-sidebar section .nav a:hover {
+  background-color: #333 !important;
 }
 
 
