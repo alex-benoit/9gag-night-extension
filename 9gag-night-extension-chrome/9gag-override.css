@@ -33,7 +33,7 @@ header#top-nav {
 
 
 /* === 9GAG POSTS === */
-/* Post Title*/
+/* Post Title */
 .badge-item-title {
   color: #D0D0D0 !important;
 }
@@ -122,6 +122,9 @@ section#individual-post header h2 {
   color: #D0D0D0 !important;
 }
 .CS3 .comment-section-title {
+  color: #D0D0D0 !important;
+}
+.CS3 .collapsed-comment {
   color: #D0D0D0 !important;
 }
 
