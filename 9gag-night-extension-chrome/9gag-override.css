@@ -48,10 +48,10 @@ section#list-view-2 article {
 
 /* === INDEX TOP CIRCLES === */
 .featured-tag a {
-  background-color: #333 !important;
+  background-color: rgb(160, 160, 160) !important;
 }
 .featured-tag a:hover {
-  background-color: #000 !important;
+  background-color: rgb(76, 76, 76) !important;
 }
 
 
@@ -186,6 +186,16 @@ section.section-header {
 }
 section.section-header h2 {
   color: #D0D0D0 !important;
+}
+.profile .tab-bar{
+  box-shadow: inset 0 -1px 0 rgb(130, 130, 130) !important;
+}
+.profile .tab-bar ul.menu a.selected {
+  color: #FFF !important;
+  border-bottom: 2px solid #FFF !important;
+}
+.profile .tab-bar ul.menu a:hover {
+  color: #FFF !important;
 }
 
 
