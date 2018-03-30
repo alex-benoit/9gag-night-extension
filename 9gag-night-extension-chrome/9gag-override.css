@@ -34,11 +34,8 @@ header#top-nav {
 
 /* === 9GAG POSTS === */
 /* Post Title */
-h1 a {
+h1 {
   color: #D0D0D0 !important;
-}
-h1:hover a {
-  color: white !important;
 }
 .post-action .lhs a span {
   filter: invert(100%);
@@ -75,6 +72,9 @@ section.block-feature-cover .info-container h3 {
 .section-sidebar {
   background-color: #151515 !important;
   border-right: 1px solid #333 !important;
+}
+.section-sidebar .icon {
+  filter: invert(82%);
 }
 .section-sidebar section {
   border-bottom: 1px solid #333 !important;
