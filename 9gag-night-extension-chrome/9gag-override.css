@@ -82,6 +82,9 @@ section.block-feature-cover .info-container h3 {
 .section-sidebar section .nav a {
   color: #D0D0D0 !important
 }
+.section-sidebar section .nav a.selected {
+  background-color: #272727 !important;
+}
 .section-sidebar section .nav a:hover {
   background-color: #333 !important;
 }
